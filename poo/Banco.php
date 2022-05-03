@@ -22,5 +22,8 @@ $conta2 -> sacar(200.0);
 echo $conta1 ->recuperarNomeTitular() . PHP_EOL;
 echo $conta1 ->recuperarCpfTitular() . PHP_EOL;
 echo $conta1 ->recuperarSaldo() . PHP_EOL;
+echo $conta2->recuperarNomeTitular() . PHP_EOL;
+echo $conta2->recuperarCpfTitular() . PHP_EOL;
+echo $conta2->recuperarSaldo() . PHP_EOL;
 echo Conta:: recuperarNumeroConta() . PHP_EOL;
 ?>
