@@ -3,11 +3,11 @@
 require_once 'funcoes.php';
 
 $contasCorrentes = [
-    '191.545.947-94' => [
+    '191.547.123-94' => [
         'titular' => 'João',
         'saldo' => 1000
     ],
-    '191.547.947-44' => [
+    '191.547.123-44' => [
         'titular' => 'Maria',
         'saldo' => 1200
     ], 

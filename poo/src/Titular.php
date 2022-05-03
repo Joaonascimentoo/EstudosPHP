@@ -23,6 +23,10 @@ class Titular{
     {
         return $this->nome;
     }
+    public function recuperaEndereco(): Endereco
+    {
+        return $this->endereco;
+    }
 
     private function validaNomeTitular($nomeTitular)
     {
