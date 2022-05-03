@@ -1,9 +1,13 @@
 <?php
 
-require 'src/Conta.php';
-require 'src/Endereco.php';
-require 'src/Titular.php';
-require 'src/CPF.php';
+require_once 'autoload.php';
+
+use Alura\Banco\Modelo\Conta\Titular;
+use Alura\Banco\Modelo\Conta\Conta;
+use Alura\Banco\Modelo\CPF;
+use Alura\Banco\Modelo\Endereco;
+
+
 
 $cliente = new Titular('Joao Pedro Muniz',new CPF('123.123.123-12'),new Endereco('22657-335',193,'teste','Rio de Janeiro','teste'));
 $conta1 = new Conta($cliente);
