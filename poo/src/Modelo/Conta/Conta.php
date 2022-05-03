@@ -3,7 +3,7 @@
 namespace Alura\Banco\Modelo\Conta;
 
 
-class Conta
+abstract class Conta
 {
     //definindo dados da conta
     private Titular $titular;
@@ -27,7 +27,7 @@ class Conta
     public function sacar(float $valorASacar) : void
     {
        
-        $tarifaDeSaque = $valorASacar * 0.05;
+        $tarifaDeSaque = $valorASacar * $this->percentualTarifa();
         $valorSaque = $valorASacar + $tarifaDeSaque;
         if($valorSaque > $this->saldo){
             echo "Saldo indisponível";
@@ -46,18 +46,6 @@ class Conta
         }
 
         $this->saldo += $valorADepositar;
-        
-    }
-
-    public function transferir(float $valorATransferir, Conta $contaDestino) : void
-    {
-        if($valorATransferir > $this-> saldo){
-            echo "Voce nao possui esse valor disponivel";
-            return;
-        }
-
-        $this->sacar($valorATransferir);
-        $contaDestino-> depositar($valorATransferir);
         
     }
 
@@ -98,6 +86,7 @@ class Conta
     {
         return $this->endereco->rua->retornarRua();
     }
+    abstract protected function percentualTarifa(): float; 
 }
 
 
