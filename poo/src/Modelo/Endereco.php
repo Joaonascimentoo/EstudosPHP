@@ -43,6 +43,19 @@ class Endereco {
     {
         return $this->rua;
     }
+
+    public function __toString() : string
+    {
+    return "$this->rua, $this->numero, $this->bairro, $this->cidade, $this->cep" . PHP_EOL;  
+
+    }
+
+    public function __get($nomeAtributo)
+    {
+        $metodo = 'retornar' . ucfirst($nomeAtributo);
+        return $this->$metodo();
+    }
+    
 }
 
 ?>
