@@ -1,0 +1,20 @@
+{
+    "name": "joaonascimentoo/buscador-cursos",
+    "description": "Projeto que busca cursos no site da alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Joaonascimentoo\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joao Pedro Muniz Nascimento",
+            "email": "jpedro747.jp@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "symfony/dom-crawler" : "^6.0"
+    }
+}
