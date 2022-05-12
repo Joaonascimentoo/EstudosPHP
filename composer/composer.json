@@ -6,7 +6,10 @@
         "psr-4": {
             "Joaonascimentoo\\BuscadorCursos\\": "src/",
             "Alura\\BuscadorDeCursos\\": "src/"
-        }
+        },
+        "files": [
+            "./functions.php"
+        ]
     },
     "authors": [
         {

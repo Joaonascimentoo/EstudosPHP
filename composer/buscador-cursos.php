@@ -14,7 +14,7 @@ $cursos = $buscador->buscar("https://www.alura.com.br/cursos-online-programacao/
 
 foreach ($cursos as $curso)
 {
-    echo $curso . PHP_EOL;
+    exibeMensagem($curso);
 }
 
 
