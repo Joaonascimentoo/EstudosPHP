@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '3808b318bfdc2fbe370999592b4dcb5d0e8fa0f4',
+        'reference' => '2d0c52fca447ac42341a711b8c37e4a2b895444b',
         'name' => 'joaonascimentoo/buscador-cursos',
         'dev' => true,
     ),
@@ -43,7 +43,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '3808b318bfdc2fbe370999592b4dcb5d0e8fa0f4',
+            'reference' => '2d0c52fca447ac42341a711b8c37e4a2b895444b',
             'dev_requirement' => false,
         ),
         'psr/http-client' => array(
@@ -98,6 +98,15 @@
             'install_path' => __DIR__ . '/../ralouphie/getallheaders',
             'aliases' => array(),
             'reference' => '120b605dfeb996808c31b6477290a714d356e822',
+            'dev_requirement' => false,
+        ),
+        'symfony/css-selector' => array(
+            'pretty_version' => 'v5.4.3',
+            'version' => '5.4.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/css-selector',
+            'aliases' => array(),
+            'reference' => 'b0a190285cd95cb019237851205b8140ef6e368e',
             'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(

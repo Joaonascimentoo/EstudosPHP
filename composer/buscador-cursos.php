@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
-$client = new Client();
+$client = new Client(['verify' => false]);
 $resposta = $client->request('GET','https://www.alura.com.br/cursos-online-programacao/php');
 
 $html = $resposta->getBody();
