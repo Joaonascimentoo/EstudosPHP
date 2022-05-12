@@ -31,15 +31,6 @@ class Buscador
         foreach ($elementosCursos as $elemento) {
             $cursos[] = $elemento->textContent;
         }
-
         return $cursos;
-
     }
-
-    
 }
-
-
-
-
-?>
