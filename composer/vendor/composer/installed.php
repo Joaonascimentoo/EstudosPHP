@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8f4e275f1f3cf3722ddcc236c223bfee18554fa6',
+        'reference' => 'bcad1977cb74b50d451af3669ed91693e73c8fac',
         'name' => 'joaonascimentoo/buscador-cursos',
         'dev' => true,
     ),
@@ -88,7 +88,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8f4e275f1f3cf3722ddcc236c223bfee18554fa6',
+            'reference' => 'bcad1977cb74b50d451af3669ed91693e73c8fac',
             'dev_requirement' => false,
         ),
         'microsoft/tolerant-php-parser' => array(
